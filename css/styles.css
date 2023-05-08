@@ -14,7 +14,7 @@
 .link {
   text-decoration: none;
 }
-.adres-item {
+.address {
   font-style: normal;
 }
 
@@ -38,7 +38,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
 
   display: flex;
   align-items: center;
@@ -51,14 +51,14 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
 
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--main-bg-color);
+  color: var(--secondary-bg-color);
 }
 
 /*  Site nav */
@@ -97,6 +97,9 @@ a {
 }
 
 /* Главная секция и Заголовок кнопка */
+.main-section {
+  background-color: var(--main-bg-color);
+}
 .main-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -109,28 +112,40 @@ a {
 
   /*color: #ffffff;*/
 }
-
-.title-button {
+.button-item {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 
   display: flex;
   align-items: center;
+  text-align: center;
   letter-spacing: 0.04em;
-  background-color: var(--accent-color);
+
+  color: #4d5ae5;
 }
-
-/*color: #FFFFFF;*/
-
-.title-button:hover,
-.title-button:focus {
+.button-item:hover,
+.button-item:focus {
   background-color: #404bbf;
+  color: #ffffff;
 }
 
 /* section title 3-4 */
 
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--main-text-color);
+}
 .portfolio-list {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -153,8 +168,40 @@ a {
 
   color: var(--secondary-text-color);
 }
+.title-team {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--main-text-color);
+}
+.team-list {
+  background-color: var(--primery-whitecolor);
+}
+.title-master {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color);
+}
+.section-workers {
+  background-color: var(--secondary-bg-color);
+}
+
 /* footer style */
-footer-section {
+.footer-section {
   background-color: var(--main-bg-color);
 }
 .footer-text {
